@@ -15,7 +15,7 @@ const fetchPokemon = async (pokemon) => {
         return data;
     }
 }
-//tem que sera assincrono, pois não se sabe quanto tempo o fetch vai demorar
+//tem que ser assincrono, pois não se sabe quanto tempo o fetch vai demorar
 
 const renderPokemon = async (pokemon) => {
     pokemonName.innerHTML = "loading...";
